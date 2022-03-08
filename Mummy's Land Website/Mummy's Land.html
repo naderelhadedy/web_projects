@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="catl1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Mummy's land</title>
+    <style type="text/css">
+    	.head {
+    		font-family: "Raleway";
+    		font-weight: bold;
+    		text-align: center;
+    	}
+
+    	.para {
+    		font-family: "Raleway";
+    		font-size: 1.2em;
+    		padding: 30px;
+    		width: 88%;
+    		margin: auto;
+    	}
+
+    	.cult {
+    		width: 100%;
+    		height: 700px;
+    	}
+
+    	#feat {
+    		background-image: url("featured-image.jpg");
+    		background-size: cover;
+    		height: 680px;
+    		width: 100%; 
+    		padding-top: 50px;
+    		opacity: 0.8;
+    	}
+
+    	#featText {
+    		font-size: 4.5em;
+    		color: rgba(255,255,255,0.8);
+    		text-align: center;
+    		padding-top: 100px;
+    		font-weight: bold;
+    		width: 30%;
+    		float: right;
+    		padding-right: 100px;
+    	}
+
+    	.nav-item {
+    		font-size: 25px;
+    		padding-right: 20px;
+    	}
+
+    	.card-img-top {
+        width:18rem;
+        height:300px;
+      }
+
+      .card {
+        height: 580px;
+        border: 1px solid #FFD1A2;
+      }
+
+      .red {
+      	color: red;
+      }
+
+      .white {
+      	color: white;
+      }
+
+      .black {
+      	color: black;
+      }
+
+      .hr {
+      	background-color: grey;
+      	width: 55%;
+      	margin-left: 500px;
+      }
+
+
+      #contact {
+      	background-image: url("footimage.png");
+      	background-size: cover;
+      	margin-top: 80px;
+      	height: 700px;
+      	width: 100%;
+      }
+
+      #contact form input, #exampleFormControlTextarea1 {
+      	border-radius: 20px;
+      }
+
+      .fa {
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 12px;
+        border-radius: 50%;
+        background-color: rgb(0,0,0);
+        width: 45px;
+        height: 45px;
+      }
+      .fa:hover {
+      	background-color: lightblue;
+      	color: black;
+      }
+
+      .fa-facebook {
+        /*background: #3B5998;*/
+        color: white;
+      }      
+
+      .fa-twitter {
+        /*background: #55ACEE;*/
+        color: white;
+      }    
+
+      .fa-youtube {
+        /*background: #bb0000;*/
+        color: white;
+      }      
+
+      .fa-instagram {
+        /*background: #125688;*/
+        color: white;
+      }      
+
+      .fa-pinterest {
+        /*background: #cb2027;*/
+        color: white;
+      }
+
+      #bot {
+      	width: 60px;
+      	height: 60px;
+      	border-radius: 50%;
+      	background-color: white;
+      	margin-right: 10px;
+      	margin-bottom: 10px;
+      }
+    	
+    </style>
+  </head>
+  <body>
+
+    <!--nav bar-->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#"><img src="catl1.png" alt="logo" width="60" height="50"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Egypt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact us</a>
+      </li>
+      
+      
+      <li class="nav-item" style="padding-left: 170px;">
+        <a class="nav-link disabled text-dark" href="#"><em><b>Mummy's land</b></em></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button style="margin-right: 10px;" class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
+      <button class="btn btn-warning my-2 my-sm-0" type="submit">Sign up</button>
+    </form>
+  </div>
+</nav>
+
+
+
+  <!--featured image-->
+
+  <div id="feat" class="img-fluid">
+  	<p id="featText">Mother of<br> the globe</p>
+  </div>
+
+  
+
+  <!--About Egypt-->
+
+	<h1 style="margin-top: 50px; padding-top: 60px;" class="head text-dark display-3" id="about">About Egypt</h1>
+
+<br><br><br><br>
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" style="margin-left: 500px;">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><h1 class="head text-warning">Country</h1></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><h1 class="head text-warning">Culture</h1></a>
+  </li>
+</ul>
+
+<br><br><br><br><br>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+  <!--Country-->
+
+<div class="container">
+
+
+  	<div>
+  		
+
+  		<div class="lead bg-light text-dark">
+  		<p class="para" style="float: right; width: 40%;">Despite ranking in the top 30 largest countries with its 1 million square kilometers of land, Egypt is a country that is notorious for its geographic ‘distribution.’  99% of Egypt’s population utilizes only 5% of the total land area but nearly 100% of its aquatic resources as a result of the predominantly barren ecosystem.  The lifeline of some 90 million human beings, the river Nile is the focal point of urban planning, an incredible 6,695 km gift of sustenance for Egypt and three other countries, making it the longest, and arguably most vital, river in the world.</p>
+
+  		<img src="about1.jpg" class="img-fluid" style="height: 640px; width: 60%">
+
+  		<p class="para" style="float: left; width: 60%;">The Nile enters Egypt a few kilometers north of a Sudanese town called Wadi Halfa through a narrow canyon that traverses sandstone and granite cliffs. The northward flowing direction of the river has thus earned Egypt’s southern border the name “Upper Egypt.” Within this stretch of the Nile is the world’s most intensive concentration of temples, tombs and palaces constructed over the span of 4,000 years.  This includes the temples of Abydos, Dendara, Karnak, Esna, Edfu, Kom Ombo, Philae and Abu Simbel, each conceived for their respective deities, further to the tombs in the Theban Necropolis within the Valley of the Kings across the river from Luxor.<br> Absorbing the river-scape from the comfort of a felucca (small sail boat) is the epitome of pleasure, relished by locals and non-locals alike. This is easily arranged in Aswan, and larger Nile cruise boats can provide an even more luxurious experience. As this river continues to flow upwards past major cities and temples, it begins to branch out into a flower-shaped formation known as the Nile delta, covering 240 km of the Mediterranean coastline.</p>
+
+  		<img src="about2.jpg" class="img-fluid" style="height: 800px; width: 40%">
+
+  		<p class="para" style="float: right; width: 40%;">Home to 39 million people, this is Egypt’s most agriculturally rich land with some of the most beautiful, soul-rejuvenating nature Egypt has to offer. Much like the Nile, the Red Sea coast, a once microcosm of the world that hosted sailors from far away lands, has also become a pivotal part of the country. Turquoise waves break against rocky capes and windswept beaches in the foreground of an endless mountain range, a much needed escape for the people of Cairo. <br>The real lure here, especially for the non-locals, are the fabulous island reefs near the resort of Hurghada and the smaller settlements of Port Safaga, El-Quseir and Marsa Alam to the south.  This entire region saw a rapid transformation in the past two decades, catalyzed by surges of annual tourists, with the most notable development being the future construction of Egypt’s new capital city near this coastline.<br> These destinations pack a powerful punch when it comes to travel-seeking vacationers.</p>
+
+  		<img src="about3.jpg" class="img-fluid" style="height: 1030px; width: 60%">
+  		</div>
+  	</div>
+	</div>
+  	
+
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+  <!--Culture-->
+
+<div class="container">
+
+  	<div>
+
+  		<div class="lead bg-light text-dark">
+  		<p class="para" style="float: right; width: 40%;">Egyptian culture dates back thousands of years to the ancient Pharaohs and has been influenced by numerous invaders throughout history. Without a doubt, this colonialist footprint has blended with the country’s rich tradition to define Egyptian culture as we know it today. Food-based gatherings are in fact one of the main social pillars of Egyptian culture with roundtable family feasts at its forefront. The local palette is geared heavily towards legumes and rice with onions, garlic and plenty of spices. There’s nothing quite like filling up on the delicious national cuisine, including foul, ta’miyah, and koshari, while basking in the hospitality of the locals, be it in the city or a Bedouin camp in Aswan.</p>
+
+  		<img src="cult1.jpg" class="img-fluid" style="height: 780px; width: 60%">
+
+  		<p class="para" style="float: left; width: 60%;">Take a stroll on the Corniche in Zamalek and stop by any of the numerous Nile cruise boats. Authentic oriental dishes are served against an unbeatable backdrop of dancing city lights and shimmering water, enriched by a gentle breeze. If you’re able to head north to Alexandria, then seafood is just what the doctor ordered. With the Mediterranean Sea just inches away, salt water fish and crustaceans are a dime a dozen. Select your fish and your favorite cooking style, and enjoy a seat by the window where you can watch small boats sail in and out of the marina while the sun sets in the distance on the Mediterranean.<br> Egypt is also well known for its captivating entertainment. Belly dancing, or oriental dancing as it’s formally known, is a longstanding part of Egyptian culture permeating all facets of life, from cabarets to the most extravagant weddings. These cultural performances extend to the Sufi whirling dervishes and the famous tanoura. Originally a means to gain higher spiritual awareness, this display of dazzling, brightly colored skirts spinning to the hypnotic pulse of the music is guaranteed to mesmerize.</p>
+
+  		<img src="cult3.jpg" class="img-fluid" style="height: 750px; width: 40%">
+
+  		<p class="para" style="float: right; width: 40%;"> The Egyptian’s love of the performing arts even transcends into the world of live Arabic music concerts in the arching halls of the Cairo Opera House and the Sayed Dervish Theatre in Alexandria, where the beat of the tablah, or drum, reverberates into the depths of your bones.Much like the official language, Egyptians across the country share a very similar trait; their friendliness. Egyptians are a very warm, sociable people who are always ready to strike up a conversation. They will offer you directions or assistance whether or not you asked for it, and will go out of their way to take you where you need to be.<br> If you’re invited over to an Egyptian’s house for anything ranging from snacks to a six-course meal, don’t expect to finish off your plate so easily as your generous hosts can refill faster than you can eat. If you truly want to experience Egypt, then you absolutely must mingle with the locals to learn the meaning of the expression “a home away from home”. Egypt’s culture has so much to offer both locals and visitors who are looking to experience its charm. Whether you’re interested in its ancient history or simply looking for an adventure, this place, and its people, are sure to captivate your very existence.</p>
+
+  		<img src="cult4.jpg" class="img-fluid" style="height: 1280px; width: 60%">
+  		</div>
+  	</div>
+	</div>
+  	
+
+
+
+  </div>
+</div>	
+
+
+
+
+ <!--Gallery-->
+
+
+<br><br>
+<div style="height: 650px; padding-top: 50px; background-color: #FFD1A2;">
+<img src="catl1.png" height="550" style="float: left;">
+<h1 class="display-2" style="text-align: center;">Need to know more about Egypt?<hr class="hr"><span class="red">Watch</span><br><span class="white">the</span><br><span class="black">next!</span></h1>
+</div>
+<br><br>
+
+
+
+	<h1 style="margin-top: 50px; margin-bottom: 80px; padding-top: 50px;" class="head text-dark display-3" id="gallery">Gallery</h1>
+
+	<div style="font-size: 1.2em; margin-bottom: 50px;">
+		<p class="para">For administrative purposes, Egypt is divided into twenty-seven governorates. Egyptian governorates are the top tier of the country's jurisdiction hierarchy. A governorate is administered by a governor, who is appointed by the President of Egypt and serves at the president's discretion.</p>
+	</div>
+
+
+
+	<div class="container">
+
+		 <!--first row-->
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="alex.jpg" alt="alex">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Alexandria</h5>
+              <p class="card-text">Alexandria was founded in c. 331 BC by Alexander the Great, king of Macedon and leader of the Greek League of Corinth, during his conquest of the Achaemenid Empire.</p>
+
+
+                      <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex1">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex1" tabindex="-1" role="dialog" aria-labelledby="ex1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex1">Alexandria</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               Alexandria Governorate is one of the governorates of Egypt. The city of Alexandria was historically the capital of Egypt until the foundation of Fustat, which was later absorbed into Cairo. Today the Alexandria governorate is considered second in importance after the Cairo Governorate. It is located in the northern part of the country, directly on the Mediterranean Sea, making it one of the most important harbours in Egypt.
+
+               Along with Cairo, Port Said and Suez, Alexandria is one of four governorates in the country that are also municipalities.[citation needed] The governorate capital is the city of Alexandria, the second largest city in Egypt. Alexandria governorate lies along the Mediterranean coast and stretch for about 70 km northwest of the Nile Delta.<br><hr> The governorate is bounded by the Mediterranean Sea in the north, El Behera governorate in the south and the east and Matrouh governorate in the west. The total area size of Alexandria governorate is almost 2818 km2. It has the most important harbour in Egypt and it is the second largest urban governorate in the country with population more than four and half million (4,799,740 in March 2015) and population density of 1700 square kilometres according to the Central Agency for Public Mobilization and Statistics (CAPMAS). Alexandria has a unique geographical location and a mild climate. It is also considered an industrial governorate where 40% of Egyptian industries are concentrated, especially chemicals, food, spinning and weaving as well as petrol industries and fertilizers.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="hurghada.jpg" alt="hurghada">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Hurghada</h5>
+              <p class="card-text">The city was founded in the early 20th century, and until recently it was a small fishing village. But since the 1980s, it has been enlarged to become the leading coastal resort on the Red Sea.</p>
+
+
+               <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex2">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex2" tabindex="-1" role="dialog" aria-labelledby="ex2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex2">Hurghada</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                 Hurghada was founded in the early 20th century. For many decades it was a small fishing village, but it has grown into a major Red Sea resort as a result of Egyptian and foreign investment that began in the 1980s. Holiday resorts and hotels provide facilities for windsurfing, kitesurfing, yachting, scuba diving and snorkeling. The city is known for its watersports, nightlife and warm weather. Daytime temperatures are around 30 °C (86 °F) most of the year, and during July and August temperatures can reach over 40 °C (104 °F). Hurghada is a popular holiday destination for Europeans, especially during the winter, and some spend Christmas and New Year there. Tourist numbers from Russia dropped significantly after the Metrojet Flight 9268 plane crash in November 2015.
+
+                 Hurghada stretches for about 36 kilometres (22 mi) along the seashore, and it does not reach far into the surrounding desert.<br><hr> The resort is a destination for Egyptian tourists from Cairo, the Delta and Upper Egypt, as well as package holiday tourists from Europe. Today Hurghada counts 248,000 inhabitants and is divided into:                 
+
+                 El Ahia and El Helal, the northern part;
+                 El Dahar (Downtown) is the old part;
+                 Sekalla is the city center;
+                 El Kawsar is the modern part;
+                 El Memsha (Village road) is pedestrian road stretching over 4 km.
+                 Along the El Mamsha can be found many of Hurghada's new hotels, restaurants, and shops. Most of the newest and biggest hotel resorts located in the area between Mamsha to Sahl Hasheesh (Village road). After Sahl Hasheesh there is Makadi Bay with its hotels. Dahar is the oldest part of the town, where the town's traditional bazaar, the post office and the long-distance bus stations, Go Bus and Upper Egypt Bus are situated. The busiest area is its "city center" Sakala, which is spread along Sheraton Road. There are some hotels, shops and restaurants along Sheraton Road.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="sharm.jpg" alt="sharm">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Sharm El-Sheikh</h5>
+              <p class="card-text">Sharm Elsheikh is an Egyptian city on the southern tip of the Sinai Peninsula, in South Sinai Governorate, on the coastal strip along the Red Sea. Its population is almost 73,000 as of 2015. </p>
+
+
+
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex3">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex3" tabindex="-1" role="dialog" aria-labelledby="ex3" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex3">Sharm El-Sheikh</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Sharm El Sheikh is on a promontory overlooking the Straits of Tiran at the mouth of the Gulf of Aqaba. Its strategic importance led to its transformation from a fishing village into a major port and naval base for the Egyptian Navy. It was occupied by Israel during the Suez Crisis of 1956 and restored to Egypt in 1957. A United Nations peacekeeping force was stationed there until the 1967 Six-Day War when it was recaptured by Israel. Sharm El Sheikh remained under Israeli control until the Sinai peninsula was given to Egypt in 1982 after the Egypt–Israel Peace Treaty of 1979.[citation needed][2][3]
+
+                A hierarchical planning approach was adopted for the Gulf of Aqaba, whereby their components were evaluated and subdivided into zones, cities and centers. In accordance with this approach, the Gulf of Aqaba zone was subdivided into four cities: Taba, Nuweiba, Dahab and Sharm El Sheikh. Sharm El Sheikh city has been subdivided into five homogeneous centers, namely Nabq, Ras Nusrani, Naama Bay, Umm Sid and Sharm El Maya.                
+
+                Sharm El Sheikh city, with Naama Bay, Hay el Nour, Hadaba, Rowaysat, Montazah and Shark's Bay form a metropolitan area.<br><hr>                
+
+                Before 1967, Sharm El Sheikh was little more than an occasional base of operations for few local fishermen; the nearest permanent settlement was in Nabk, north of Ras El Nasrani ("The Tiran Straits"). Commercial development of the area began when the Israelis built the settlement of Ofira, overlooking Sharm El Maya Bay and the Nesima area, and opened the first tourist-oriented establishments in the area at Naama Bay, 6 kilometres (4 mi) to the north. These included a marina hotel on the southern side of the bay, a nature field school on the northern side, diving clubs, a promenade, and the Naama Bay Hotel.[citation needed] The site off the shore gun emplacements at Ras Nasrani opposite Tiran Island is now a diving area.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div><br>
+	
+
+		<!--second row-->
+
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="aswan.jpg" alt="aswan">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Aswan</h5>
+              <p class="card-text">Aswan is a busy market and tourist centre located just north of the Aswan Dam on the east bank of the Nile. The modern city includes the formerly separate community on the island of Elephantine. </p>
+
+
+
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex4">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex4" tabindex="-1" role="dialog" aria-labelledby="ex4" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex4">Aswan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                The city is part of the UNESCO Creative Cities Network in the category of craft and folk art. The rate of poverty is more than 60% in this governorate but recently some social safety networks have been provided in the form of financial assistance and job opportunities. The funding has been coordinated by the country's Ministry of Finance and with assistance from international organizations. The governorate is divided into the following municipal divisions for administrative purposes with a total estimated population as of July 2017 of 1,481,446. In some instances there is a markaz and a kism with the same name. <br><hr>According to population estimates from 2015 the majority of residents in the governorate live in rural areas, with an urbanization rate of only 42.3%. Out of an estimated 1,431,488 people residing in the governorate, 826,543 people live in rural areas as opposed to only 604,945 in urban areas. According to the Egyptian Governing Authority for Investment and Free Zones (GAFI), in affiliation with the Ministry of Investment (MOI), there is an industrial zone called El Shalalat located in this governorate.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="portsaid.jpg" alt="portsaid">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Port Said</h5>
+              <p class="card-text">Port Said is a city that lies in north east Egypt extending about 30 kilometres (19 mi) along the coast of the Mediterranean Sea, north of the Suez Canal, with a population of 603,787. </p>
+
+
+
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex5">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex5" tabindex="-1" role="dialog" aria-labelledby="ex5" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex5">Port Said</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                The city was established in 1859 during the building of the Suez Canal. In 2015 a huge natural gas reserve was discovered and was described as "the largest ever found in the Mediterranean Sea". It was found off the coast of Port Said. Egypt now has one of the largest areas of natural gas and Italian company, ENI has been contracted to work on the natural gas liquefaction for Egypt. It was welcome news as Egypt has long suffered an energy crisis. On the Sinaii side of the canal, Port Said East is a recently launched development that contains the Suez Canal Container Terminal which opened in 2004.<br><hr> A side canal at Port Said East was opened in 20016. In November 2015 president Al-Sisi publicly launched a new harbour development project at East Port Said. According to the Port Said Governorate website, it is divided into the following municipal divisions for administrative purposes. El Sharq, El Arab, Port Fuad, El Manakh, El Dawahy, El Zohur, West (El Gharb), South (El Ganoub).
+
+                Divisions of the governorate, at the 2006 census, included Mubarak East (the zone east of the new channel), Port Fuad 2 (the southern half of Fuad Island), Ganoub 2 (the southern part of South district), El Manasrah (now El Gharb), and a police department covering the docks[16] It The total estimated population as of July 2017 was 751,073.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="dahab.jpg" alt="dahab">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Dahab</h5>
+              <p class="card-text">Dahab is a small town on the southeast coast of the Sinai Peninsula in Egypt, approximately 80 km (50 mi) northeast of Sharm el-Sheikh, formerly a Bedouin fishing village. </p>
+
+
+
+
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex6">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex6" tabindex="-1" role="dialog" aria-labelledby="ex6" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex6">Dahab</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Dahab is now considered to be one of Sinai's most treasured diving destinations.  Following the Six-Day War, Sinai was occupied by Israel and Dahab became known as Di-Zahav (Hebrew: די זהב‎), after a place mentioned in the Bible as one of the stations for the Israelites during the Exodus from Egypt. The Sinai Peninsula was restored to Egyptian rule under the Egypt–Israel Peace Treaty in 1982. The arrival of international hotel chains and the establishment of other ancillary facilities has since made the town a popular destination with tourists. Dahab is served by Sharm el-Sheikh International Airport. Masbat (within Dahab) is a popular diving destination, and there are many (50+) dive centers located within Dahab. Most of Dahab's diving spots are shore dives.<br><hr>
+
+                Dahab can be divided into three major parts. Masbat, which includes the Bedouin village Asalah, is in the north. South of Masbat is Mashraba, which is more touristic and has considerably more hotels. In the southwest is Medina which includes the Laguna area, famous for its excellent shallow-water windsurfing.                
+
+                The region of Asalah is quite developed and has many campsites and hostels. Most people who have visited Dahab in the past were backpackers interested in diving and snorkeling in the Red Sea. The town of Dahab counts around 15,000 inhabitants.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div><br>
+
+
+
+      <!--third row-->
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="giza.jpg" alt="giza">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Giza</h5>
+              <p class="card-text"> It is in the center of the country, situated on the west bank of the Nile River opposite Cairo. Its capital is the city of Giza. It includes a stretch of the left bank of the Nile Valley around Giza.</p>
+
+
+                      <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex7">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex7" tabindex="-1" role="dialog" aria-labelledby="ex7" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex7">Giza</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                It acquired a large stretch of Egypt's Western Desert, including Bahariya Oasis when the 6th of October Governorate was merged into it on 14 April 2011. The Giza Governorate is also home to the Great Sphinx and the Pyramids of Giza. The rate of poverty is more than 60% in this governorate but recently some social safety networks have been provided in the form of financial assistance and job opportunities. The funding has been coordinated by the country's Ministry of Finance and with assistance from international organizations. The governorate is divided into municipal divisions, with a total estimated population as of July 2017 of 8,666,090. <br><hr> In the case of Giza governorate, there are a number of aqsam and marakiz, with fully urban and rural parts. Sometimes a markaz and a kism share a name. According to population estimates from 2015 the majority of residents in the governorate lived in urban areas, with an urbanization rate of 58.6%. Out of an estimated 7,585,115 people residing in the governorate, 4,446,805 people lived in urban areas as opposed to only 3,138,310 in rural areas. According to population estimates from 2018 the majority of residents in the governorate live in urban areas, with an urbanization rate of 60.9%. Out of an estimated 8,759,000 people residing in the governorate, 5,332,000 people live in urban areas as opposed to only 3,428,000 in rural areas.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="luxor.jpg" alt="luxor">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Luxor</h5>
+              <p class="card-text">Luxor Governorate has been one of Egypt's governorates since 7 December 2009, when former president Hosni Mubarak announced its separation from the Qena Governorate.</p>
+
+
+               <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex8">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex8" tabindex="-1" role="dialog" aria-labelledby="ex8" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex8">Luxor</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  It is currently the smallest governorate in Egypt, spanning approximately 5 km from north to south, and 1.5 km from east to west, and lies in Upper Egypt along the Nile. The city of Luxor is the capital of the Luxor governorate. The government is studying the possibility of extending the boundaries of the governorate to include the neighboring towns of Armant and Esna. Despite the governorate being one of the top destinations for tourists in Egypt,[3] the poverty rate is more than 60% in this governorate but recently some social safety networks have been provided in the form of financial assistance and job opportunities. The funding has been coordinated by the country's Ministry of Finance and with assistance from international organizations. The governorate is divided into the following municipal divisions with a total estimated population as of July 2017 of 1,255,703. <br><hr> In some instances there is a markaz and a kism with the same name. The emblem of Luxor represents the bust of Tutankhamun on board of an Ancient Egyptian canoe boat, cruising in the Nile, with an obelisk and the sun light in the background. The governorate's total area is 2960 km2, representing 0.24% of the country's area. At the 2012 census, the population of the area which in 2009 was formed into the new Luxor Governorate was 1,064,000 people. 47.4% of them lived in urban areas, while 52.6% lived in rural areas. The annual population growth rate is 18.2 per thousand. Population estimates from 2015 puts the same figure at 1,147,058 with an urbanization rate of 37.8%.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="cairo.jpg" alt="cairo">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Cairo</h5>
+              <p class="card-text">Cairo Governorate is the most populated of the governorates of Egypt. Its capital, the city of Cairo, is the national capital of Egypt, and is part of the Greater Cairo metropolitan area.  </p>
+
+
+
+              <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#ex9">
+          Know More
+        </button>        
+
+        <!-- Modal -->
+        <div class="modal fade" id="ex9" tabindex="-1" role="dialog" aria-labelledby="ex9" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ex9">Cairo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Because it is completely urbanized, the governorate is considered a city proper, and functions as a municipality. However, there are uninhabited desert areas. Parts of the governorate were separated in April 2008 to form the Helwan Governorate, only to be reincorporated into the Cairo Governorate in April 2011. The rate of poverty is more than 60% in this governorate, but recently some social safety networks have been provided in the form of financial assistance and job opportunities. The funding has been coordinated by the country's Ministry of Finance and with assistance from international organizations. <br><hr>The governorate is divided into the following municipal divisions for administrative purposes, with a total estimated population as of July 2017 of 9,570,441. The former governor was Galal Saeed, who previously served as Minister of Transport under Kamal Ganzouri. The current governor is Khaled Abdel-Aal Abdel-Hafez, appointed 30 August 2018. In a program that began on August 28, 2012 (through 2018), the European Union invested 40 million Euros on upgrading the infrastructure of informal areas in Cairo Governorate.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div><br>
+
+
+      
+
+      </div>
+    </div>
+
+
+	<!--section-->
+
+	<div style="margin-top: 20px;">
+		<a id="bfoot" style="float: left; margin-left: 400px;" href="https://en.wikipedia.org/wiki/Subdivisions_of_Egypt" target="_blank"><img src="bfoot.png" width="250" height="200" alt="guiding picture"></a>
+		<p class="para text-info" style="text-align: center; font-size: 25px; padding-top: 60px; padding-right: 300px;">Want to explore the rest?<br>Click on the queen!</p>
+		
+	</div>
+
+
+
+
+	<!--footer-->
+
+	<div id="contact">
+		<h1 style="text-align: center; padding-top: 100px; font-size: 50px; opacity: 0.5;">Contact Mummy's Land</h1>
+		<br>
+		<hr>
+
+	<!--contact info-->
+
+
+
+		<div style="float: left; margin-left: 50px; margin-top: 150px;">
+			<h3>Address</h3>
+			<p>The 5<sup>th</sup> Settlement, Cairo, Egypt</p>
+
+			<h3>Telephone</h3>
+			<p>+229832912902</p>
+
+			<h3>E-mail</h3>
+			<p>info@mummyland.com</p>
+		</div>
+
+
+	<!--contact form-->
+
+
+        <form class="needs-validation" novalidate style="margin-top: 170px; padding: 0px 10px 0px 500px;">
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              
+              <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            
+          </div>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              
+              <input type="text" class="form-control" id="validationCustom03" placeholder="Country" required>
+              <div class="invalid-feedback">
+                Please provide a valid country.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+ 			   
+      		   <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
+      		   <div class="invalid-feedback">
+                Please provide a valid email.
+              </div>
+ 			</div>
+            
+          </div>
+
+
+          <div class="form-row">
+          	<div class="col-md-8 mb-3" id="resizeMe">
+   			 
+   			 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+  		  </div>
+  		</div>
+
+
+          <button class="btn btn-warning" type="submit" style="margin-left: 200px; width: 120px; border-radius: 20px;">Send</button>
+        </form>        
+
+
+
+	</div>
+
+
+
+
+
+	<!--last part of footer-->
+
+	<div style="background-color: rgba(255, 209, 162,0.75); height: 85px;">
+		
+		<div style="text-align: center; padding-top: 20px;">
+			<p style="font-size: 22px; float: left; padding-top: 10px; padding-left: 60px; color: rgba(0,0,0,0.75); font-weight: bold;">©2020 MUMMY'S LAND. ALL RIGHTS RESERVED</p>
+		    <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+    	</div>
+	</div>
+
+
+
+	<!--chatbot-->
+
+	<div style="position: fixed; bottom: 0; right: 0;">
+		<img id="bot" src="chatbot.png">
+	</div>
+
+
+
+
+
+
+
+	<!--validation form script-->
+
+
+
+	<script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+
+
+        document.getElementById("bot").onclick = (function() {
+        	alert("Go to contact us section for any help!");
+        });
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

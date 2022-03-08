@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit Form</title>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.js" integrity="sha256-oYqpLeqZe9cetUDV+TFiBZHp3uJ+X4F5eLs4W6uSTSE=" crossorigin="anonymous"></script>
+
+	<link href="jQueryUI/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+	<script src="jQueryUI/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+<body>
+
+
+	<p id="para1" style="display: none;">Congratulations!<br><br>You've signed up<br>successfully.</p>
+	<p id="para2"></p>
+
+<div id="form">
+	<div class="element">
+		<label for="email">Email <span> *</span></label><br>
+		<input type="text" name="email" id="email" placeholder="xxx@gmail.com">
+	</div>
+
+	<div class="element">
+		<label for="phone">Telephone <span> *</span></label><br>
+		<input type="text" name="phone" id="phone" placeholder="use numbers only">
+	</div>
+
+	<div class="element">
+		<label for="password">Password <span> *</span></label><br>
+		<input type="password" id="password">
+	</div>
+
+	<div class="element">
+		<label for="password">Confirm Password <span> *</span></label><br>
+		<input type="password" id="confirmPassword">
+	</div>
+	
+
+	<input id="submit" type="submit" name="submitButton" value="Sign Up">
+</div>
+
+
+<script type="text/javascript" src="form.js"></script>
+</body>
+</html>

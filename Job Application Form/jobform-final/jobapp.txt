@@ -1,0 +1,40 @@
+
+ Name: Rovan Halem
+ Email: nader.m.elhadedy@gmail.com
+ Phone: 01029021922
+ Address: Port Said, Egypt
+ Department: Supply Chain
+ Experience: Student
+ Availability: Part-Time
+
+ Name: omnia
+ Email: omni@omnia
+ Phone: 123
+ Address: 123
+ Department: Human Resources
+ Experience: Student
+ Availability: Part-Time
+
+ Name: omnia
+ Email: omni@omnia
+ Phone: 123
+ Address: 123
+ Department: Human Resources
+ Experience: Student
+ Availability: Part-Time
+
+ Name: omnia
+ Email: omnia9090@gmail.com
+ Phone: 123
+ Address: 123
+ Department: IT
+ Experience: Student
+ Availability: Part-Time
+
+ Name: Rovan Mokhtar
+ Email: nader.m.elhadedy@gmail.com
+ Phone: 01022222111
+ Address: Port Said, Egypt
+ Department: Business Analysis
+ Experience: Senior
+ Availability: Contract

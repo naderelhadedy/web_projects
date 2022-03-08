@@ -1,0 +1,167 @@
+nav ul li {
+			list-style: none;
+			float: left;
+			padding-right: 50px;
+			font-size: 30px;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		nav {
+			background-color: #29416d;
+			height: 100px;
+		}
+
+		nav ul {
+			display: inline-block;
+			margin-left: 50px;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		.icons {
+			float: right;
+			padding: 30px;
+			margin-top: 10px;
+		}
+
+		#quote {
+			text-align: center;
+			font-family: "Vollkorn";
+			width: 750px;
+			font-size: 68px;
+		}
+
+		#quoteStart {
+			text-align: center;
+			font-size: 60px;
+			font-style: italic;
+			color: #29416d ;
+		}
+
+		#date {
+			text-align: center;
+			font-size: 32px;
+			background-color: #DE9F54;
+			height: 50px;
+			margin-top: 0;
+			color: white;
+			padding-top: 10px;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		#home {
+			text-decoration: underline red;
+		}
+
+		#about {
+			font-size: 42px;
+			text-align: center;
+			color: #29416d ;
+			margin-top: 50px;
+		}
+
+		#mid p {
+			text-align: center;
+			font-size: 30px;
+			font-family: serif;
+		}
+
+		#mid ul {
+			padding-left: 400px;
+			font-size: 25px;
+		}
+
+		#mid ul li {
+			list-style: circle;
+		}
+
+		
+
+		#facts {
+			font-size: 42px;
+			text-align: center;
+			color: #29416d ;
+			margin-top: 50px;
+		}
+
+		#accordion {
+			font-size: 24px;
+		}
+
+		table, th, td {
+			border: 1px solid grey;
+			font-size: 20px;
+		}
+
+		table {
+        	border-collapse: collapse;
+        	width: 50%;
+        	margin-top: 60px;
+        	margin-bottom: 30px;
+        	margin-left: 300px;
+     	 }
+
+     	th, td {
+       		 text-align: center;
+       	 	padding: 10px;
+     	 }
+
+     	th {
+       		 background-color: #29416d;
+      	  	color: #DE9F54;
+    	  }
+
+    	tr:hover { background-color: #29416d; color: #DE9F54;}
+		
+		#form {
+			text-align: center;
+			padding-top: 20px;
+			margin-top: 100px;
+			background-color: #29416d;
+			color: #DE9F54;
+			height: 600px;
+			font-size: 32px;
+		}
+
+		#form input {
+			border-radius: 10px;
+			padding-left: 20px;
+			font-size: 25px;
+			width: 350px;
+		}
+
+		footer {
+			background-color: #29416d;
+			height: 80px;
+			margin-top: 100px;
+			padding-top: 50px;
+		}
+
+		footer ul {
+			display: inline-block;
+			margin-left: 50px;
+		}
+
+		footer ul li {
+			list-style: none;
+			float: left;
+			padding-right: 50px;
+			font-size: 30px;
+		}
+
+		footer ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.change {
+			background-color: black;
+			color: white;
+		}
